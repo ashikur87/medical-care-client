@@ -1,0 +1,12 @@
+.cart img{
+    width: 300px;
+    height: 200px;
+}
+.backgroundColor{
+    background-color: aqua;
+   
+}
+.cart {
+    height: 500px;
+    overflow: hidden;
+}
