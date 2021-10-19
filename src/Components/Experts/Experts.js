@@ -4,7 +4,7 @@ import Expert from '../Expert/Expert';
 
 const experts = [
     {
-        img: 'http://st2.depositphotos.com/3889193/8319/i/450/depositphotos_83195332-Smiling-female-doctor-holding-medical-records.jpg',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHIWDfGcSvXbN_sh74_oWk8c_fbuG8-O6aGg&usqp=CAU',
         name: 'Kalitara Tithy',
         expertize: '-Rheumatologist specialised-'
     },
