@@ -44,7 +44,7 @@ function App() {
         <Route path='/expert'>
         <Experts></Experts>
         </Route>
-        <PrivateRoute path='/booking/:serviceid'>
+        <PrivateRoute path='/booking/:serviceId'>
             <Booking></Booking>
         </PrivateRoute>
         <Route path='/registration'>

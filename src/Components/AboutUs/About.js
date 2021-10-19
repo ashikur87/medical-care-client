@@ -6,7 +6,7 @@ const About = () => {
         <div id='About' className='About-us'>
 
 <div className='bg-secondary text-white'>
-<h1 className='bg-warning p-5'><marquee behavior="" direction=""><h2 className='text-primary fw-bold'>About Us:</h2></marquee></h1>
+<h1 className='background p-5'><marquee behavior="" direction=""><h2 className='text-primary fw-bold'>About Us:</h2></marquee></h1>
 
       <h1><u>Contact US:</u></h1>
        <h1>Manager Information:</h1>

@@ -9,9 +9,9 @@ const Service = (props) => {
             
         
 <div className=''>
-<div className='service pb-3 m-3 p-3 backgroundColor ' >
+<div className='service pb-3 m-3 p-3 backgroundColor  ' >
         
-<div className='cart'>
+<div className='cart '>
         <img  src={img} alt="" />
         <p>id:{id}</p>
         <h3>Name:{name}</h3>
@@ -20,7 +20,7 @@ const Service = (props) => {
 </div>
         
         
-        <Link to={`/booking/${name} ${price} ${description}`}>
+        <Link to={`/booking/${id}`}>
         <button className='btn-primary'>Book:{name.toLowerCase()}</button>
         </Link>
         

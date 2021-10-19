@@ -8,7 +8,7 @@ const Blog = () => {
 
     return (
         <div id='Blog'>
-            <h1 className='bg-warning p-5'><marquee behavior="" direction=""><h2 className='text-primary fw-bold'>Our Blog:</h2></marquee></h1>
+            <h1 className='background p-5'><marquee behavior="" direction=""><h2 className='text-warning fw-bold'>Our Blog:</h2></marquee></h1>
             <h1>Our Client Says:</h1>
             <div className='bloging'>
                 {/* bloging */}

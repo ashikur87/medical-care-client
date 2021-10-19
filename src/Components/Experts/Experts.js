@@ -27,8 +27,8 @@ const experts = [
 
 const Experts = () => {
     return (
-<div className='container' id='Experts' >
-            <marquee behavior="" direction=""><h2 className='text-primary fw-bold'>Our Experts</h2></marquee>
+<div  id='Experts' >
+<h1 className='background p-5'><marquee behavior="" direction=""><h2 className='text-warning fw-bold'>Our Experts:</h2></marquee></h1>
             <div className='row'>
                 {
                     experts.map(expert=><Expert expert={expert}></Expert>)

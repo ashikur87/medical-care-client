@@ -1,12 +1,13 @@
 import React from 'react';
-import useAuth from '../../LoginHooks/useAuth';
+
+import Registration from '../../Registration/Registration';
 
 const Login = () => {
-    const {SigninUsingGoogle}=useAuth()
     return (
         <div>
             <h2>please Login:</h2>
-            <button onClick={SigninUsingGoogle}  className="btn btn-warning">Google Sign In</button>
+            <Registration></Registration>
+
         </div>
     );
 };

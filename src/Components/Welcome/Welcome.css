@@ -3,8 +3,8 @@
     grid-template-columns: repeat(2,1fr);
 }
 .welcome img{
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 .background:hover{
     background-color: #fff;
@@ -13,7 +13,9 @@
     .responsive{
         grid-template-columns: repeat(1,1fr);
     }
-    
+    .responsive img{
+        width: 100%;
+    }
     
 }
 @media only screen and (min-width:689px) and (max-width:991px) {
