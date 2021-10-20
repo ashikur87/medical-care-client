@@ -3,9 +3,18 @@
     height: 300px;
     width: 50%;
 } 
+.manager{
+    width: 500px;
+}
+.about{
+    background-color: lightgreen;
+}
 @media only screen and (max-width:688px) {
     .About-us{
         grid-template-columns: repeat(1,1fr);
+    }
+    .manager{
+        width: 100%;
     }
     
 }

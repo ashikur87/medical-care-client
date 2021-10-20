@@ -1,25 +1,28 @@
 import React from 'react';
 import './About.css'
+import manager from '../../Images/manager/as.jpg'
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
         <div id='About' className='About-us'>
 
-<div className='bg-secondary text-white'>
+<div className='about  my-5'>
 <h1 className='background p-5'><marquee behavior="" direction=""><h2 className='text-primary fw-bold'>About Us:</h2></marquee></h1>
+        <h1><u>Contact US:</u></h1>
+        <h1>Manager Information:</h1>
+        <img className='manager' src={manager} alt="" />
 
-      <h1><u>Contact US:</u></h1>
-       <h1>Manager Information:</h1>
        <h3>Name:Md.Ashikur Rahman</h3>
        <h3>phone:01717693872</h3>
-       <h3>E-mail:ashikur35-2627@diu.edu.bd</h3>
+       <Link className=' fw-bold'>E-mail:ashikur35-2627@diu.edu.bd</Link>
        <h3>Fax:+44 870 711 3311</h3>
 </div>
 
             
-<form class="row g-3 container mt-5">
+<form class=" row g-3 container mt-5">
   {/* form use */}
-  <h1 className='text-success'>Give Your Infomation Here:</h1>
+  <h1 className='text-primary'><u>Give Your Infomation Here:</u></h1>
     
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>

@@ -9,28 +9,28 @@ const Blog = () => {
     return (
         <div id='Blog'>
             <h1 className='background p-5'><marquee behavior="" direction=""><h2 className='text-warning fw-bold'>Our Blog:</h2></marquee></h1>
-            <h1>Our Client Says:</h1>
+            <h1 className='fw-bold text-primary'><u>Our Client Says:</u></h1>
             <div className='bloging'>
                 {/* bloging */}
-                <div className='border border-warning m-3 '>
+                <div className='border border-primary m-3 '>
                   
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo facilis assumenda alias, ullam tenetur asperiores quos commodi accusamus praesentium, iure quis voluptate minus. Neque facere blanditiis explicabo, facilis ratione cumque dolorum debitis ipsam doloribus, deleniti enim a laborum. Quasi impedit atque odio! Consequuntur ipsam, est architecto similique eius cupiditate.</p>
+                    <p>Trusted results for Ambulance Services Near Me. Check Visymo Search for the best results! Unlimited Access. 100% Secure. Always Facts. Privacy Friendly. The Best Resources. Results & Answers. Types: Best Results, Explore Now, New Sources, Best in Search.</p>
 
                 </div>
-                <div  className='border border-warning m-3 '>
+                <div  className='border border-primary m-3 '>
                     
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dicta. Animi pariatur deserunt facere nesciunt consectetur, dolore dignissimos voluptatum quasi velit cumque esse ducimus iusto error, voluptatibus placeat magnam optio cupiditate amet ipsam accusantium nisi nam! Dicta nisi, repellat aliquid repellendus ducimus, est quisquam ipsum incidunt, a natus odit. Saepe.</p>
+                    <p>The law says that it is an emergency if you reasonably believe that it is an emergency. It is an emergency if waiting to get care could be dangerous to your life or a part of your body. A bad injury or a sudden serious illness can be an emergency. Severe pain and active labor are also emergencies.</p>
                 </div>
-                <div  className='border border-warning m-3 '>
+                <div  className='border border-primary m-3 '>
                     
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea pariatur temporibus, qui beatae, enim ratione facere repellat dolorem praesentium cum eius labore accusantium maiores tempore deleniti. Pariatur ex temporibus veritatis quas nulla natus illum, beatae esse? Magni dolorem sit, labore corporis ad asperiores distinctio recusandae aliquid eligendi, debitis quisquam laudantium.</p>
+                    <p>Definitions of medical checkup. a thorough physical examination; includes a variety of tests depending on the age and sex and health of the person. synonyms: checkup, exam, examination, health check, medical, medical exam, medical examination. type of: examination, scrutiny.</p>
                 </div>
-                <div className='border border-warning m-3 '>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, animi. Molestias ratione esse blanditiis inventore dicta eaque mollitia, eius temporibus magnam vel expedita ducimus nihil dolore debitis, dolor dignissimos! Tempore nihil alias, id, ex explicabo quaerat voluptatem illum sed iste ducimus labore nobis neque quibusdam quisquam recusandae dolores distinctio earum.</p>
+                <div className='border border-primary m-3 '>
+                    <p>Intensive Care Units. Intensive care units (ICUs) are areas of the hospital where seriously ill patients receive specialized care such as intensive monitoring and advanced life support. These units are also called critical care units, intensive therapy units, or intensive treatment units.</p>
                 </div>
 
             </div>
-            <div className='border borde-3 p-3 m-2'>
+            <div className='border border-3 p-3 m-2'>
                 <input type="text" placeholder='subscribe' />
                 <button className='btn btn-warning'>Subscribe</button>
             </div>
