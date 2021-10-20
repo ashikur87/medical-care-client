@@ -16,7 +16,7 @@ const Home = () => {
             <Welcome></Welcome>
             <Blog></Blog>
             <About></About>
-            <Experts></Experts>
+            
 
         </div>
     );
