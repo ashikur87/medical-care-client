@@ -10,4 +10,4 @@ live site link:https://medical-care-ashikur-rahman.netlify.app/
 2.here is some Services and price included.
 3.here is some Experts  
 4.firebase Authentication
-5.and aso login/registration  page here
+5.and also login/registration  page here
